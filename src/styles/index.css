@@ -10,3 +10,24 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+input{
+    width: 500px;
+}
+li{
+    border-bottom: 1px solid lightgray;
+    list-style-type: none;
+    margin-left: -30px;
+    padding: 3px;
+    width: 500px;
+}
+#parent .hidden-child{
+    visibility:hidden;
+}
+#parent:hover .hidden-child{
+    visibility: visible;
+}
+
+.content {
+    max-width: 500px;
+    margin: auto;
+}
